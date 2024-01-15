@@ -1,0 +1,38 @@
+/* Font Mulish */
+
+  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+*{
+    font-family: 'Mulish';
+}
+.text-primary{
+    color: #FF5400;
+}
+header{
+    padding: 50px 240px;
+}
+/* nav style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    font-size: 2.3rem;
+}
+nav > ul, div{
+    display: flex;
+}
+/* nav .head{ 
+   
+    margin-right: 30px;
+
+} */
+nav li{
+    list-style: none;
+    margin-right: 30px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgba(66, 66, 71, 1);
+}
