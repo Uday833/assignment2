@@ -20,7 +20,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin: 10px 350px;
    
 }
 .nav-title{
@@ -43,7 +43,8 @@ nav li a{
 }
 /* Banner style */
 .banner{
-    background-image:url(B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url("B9A2-Hero-Travel/Images/Group 13 (1) (1).png") center/cover no-repeat;
     padding: 50px 50px; 
     border: 16px;
     width: 1170px;
@@ -51,27 +52,28 @@ nav li a{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    /* background-position: center; */
-    margin: auto;
-}
-    /* color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
-/* }
-.banner img{
-    width: 100%;
-} */
-
+    margin: 100px 350px;
+    }
+    .format{
+        display: inline-flex;
+        padding: 16px;
+        align-items: flex-start;
+        gap: 24px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+    }
     .banner-title {
         font-size: 64px; /* Adjust font size as needed */
         color: #FFF;
-        width: 252px 422px;
+        /* width: 252px 422px; */
         font-weight: 800;
-    }
-    
+    } 
+
     .banner-description {
         font-size: 18px; /* Adjust font size as needed */
         color: #FFF;
     }
-    
+
     form > input, button{
         height: 52px;
         width: 174px;
@@ -82,6 +84,7 @@ nav li a{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        margin: 100px 350px;
     }
     .tour-head{
         color: #131318;
@@ -105,7 +108,9 @@ nav li a{
     /* Image container */
 .destination-image{
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(2, 3, 2, 1fr);
+    margin: 100px 350px;
 }
 .destination-text{
     text-align: center;
@@ -115,25 +120,59 @@ nav li a{
     font-size: 40px;
     font-weight: 800;
 }
+.choosing-reason{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+line-height: normal;
+}
+.choosing-header{
+    font-size: 40px;
+font-style: normal;
+font-weight: 800;
+}
+
+
 
     /* Responsive for mobile device */
     @media screen and (max-width: 576px) {
-        header{
-            padding: 50px;
+        nav{    
+            width: 200px;
+            margin: auto;
         }
-        nav{
+
+       form{
         flex-direction: column;
+        
         }
         nav > ul{
             flex-direction: column;
         }
         .banner{
-              padding: 5px;
-            width: 450px;
+            width: 500px;
+            margin: auto;
         }
-        .tour{
+        .banner-title {
+            font-size: 24px; 
+        }
+    
+        .banner-description {
+            font-size: 14px; 
+        }
+        }
+
+        .tour-content{
         display: flex;
     flex-wrap: wrap; 
-    justify-content: space-around;
+    margin: auto;
+    position: relative;
+    
+        }
+    .destination-container{
+        flex-direction: column;
     }
+    .destination-image{
+        position: relative;
+
     }
+ 
