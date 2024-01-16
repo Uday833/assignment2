@@ -10,7 +10,7 @@
 }
 .btn-primary{
     color: #FFF;;
-    background-color: #FF5400 
+    background-color: #FF5400
 }
 header{
     padding: 50px 240px;
@@ -20,6 +20,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto;
+   
 }
 .nav-title{
     font-size: 2.3rem;
@@ -46,13 +48,17 @@ nav li a{
     border: 16px;
     width: 1170px;
     height: 500px;
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    background-position: center;
+    /* background-position: center; */
     margin: auto;
-    /* color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
 }
+    /* color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
+/* }
+.banner img{
+    width: 100%;
+} */
 
     .banner-title {
         font-size: 64px; /* Adjust font size as needed */
@@ -69,17 +75,65 @@ nav li a{
     form > input, button{
         height: 52px;
         width: 174px;
-        /* display: inline-flex; */
-        /* padding: 16px; */
-        /* align-items: flex-start; */
-        row-gap: 24px;
     }
+    /* Tour design */
 
-
+    .tour {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .tour-head{
+        color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    }
+    
+    .tour-content {
+        flex: 1; 
+        max-width: 600px; 
+    }
+    
+    .tour-image img {
+        max-width: 100%; 
+        height: auto;
+    }
+    .button{
+        border-radius: 8px;
+        font-size: 20px;
+    }
+    /* Image container */
+.destination-image{
+    display: grid;
+    grid-template-columns: repeat(2, 3, 2, 1fr);
+}
+.destination-text{
+    text-align: center;
+}
+.destination-head{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
 
     /* Responsive for mobile device */
-    @media screen and  {
-        
-    } {
-        
+    @media screen and (max-width: 576px) {
+        header{
+            padding: 50px;
+        }
+        nav{
+        flex-direction: column;
+        }
+        nav > ul{
+            flex-direction: column;
+        }
+        .banner{
+              padding: 5px;
+            width: 450px;
+        }
+        .tour{
+        display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    }
     }
