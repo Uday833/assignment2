@@ -8,6 +8,10 @@
 .text-primary{
     color: #FF5400;
 }
+.btn-primary{
+    color: #FFF;;
+    background-color: #FF5400 
+}
 header{
     padding: 50px 240px;
 }
@@ -38,17 +42,23 @@ nav li a{
 /* Banner style */
 .banner{
     background-image:url(B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png);
-    padding: 135px 146px;
-    background-size: cover;
+    padding: 50px 50px; 
+    border: 16px;
+    width: 1170px;
+    height: 500px;
+    /* background-size: cover; */
     background-repeat: no-repeat;
     text-align: center;
-    background-position: bottom center;
+    background-position: center;
+    margin: auto;
+    /* color: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%); */
 }
 
     .banner-title {
         font-size: 64px; /* Adjust font size as needed */
         color: #FFF;
         width: 252px 422px;
+        font-weight: 800;
     }
     
     .banner-description {
@@ -56,6 +66,20 @@ nav li a{
         color: #FFF;
     }
     
-    form {
-        margin-top: 52px; /* Adjust margin as needed */
+    form > input, button{
+        height: 52px;
+        width: 174px;
+        /* display: inline-flex; */
+        /* padding: 16px; */
+        /* align-items: flex-start; */
+        row-gap: 24px;
+    }
+
+
+
+    /* Responsive for mobile device */
+    @media screen and  {
+        
+    } {
+        
     }
