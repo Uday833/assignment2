@@ -141,11 +141,7 @@ line-height: normal;
 font-style: normal;
 font-weight: 800;
 }
-/* .box{
-    width: 573px;
-height: 284px;
-flex-shrink: 0;
-} */
+
 
 .step4, .step5, .step6{
    
@@ -188,21 +184,64 @@ flex-shrink: 0;
     background: rgba(233, 68, 68, 0.05);
     margin: 48px 750px;
 }
-/* .all-steps{
-    display: grid;
-    gap: 20px;
-    grid-template-areas: 
-    "step4" "step5"
-       "step6"
-       ;
-} */
+
 .all-step1{
     display: flex;
     align-items: center;
     gap: 40px;
     margin: 48px 400px;
 }
-
+.form-detail{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 350px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #FF5400;
+    padding: 5px;
+    border-radius: 5px;
+    width: 500px;
+    height: 500px;
+    margin: 40px;
+}
+.form-head{
+    font-size: 24px;
+font-style: normal;
+font-weight: 800;
+margin-top: 40px;
+}
+.input1, .input2{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: rgba(19, 19, 24, 0.05);
+}
+.form > .btn-primary{
+    width: 393px;
+height: 52px;
+flex-shrink: 0;
+margin-bottom: 15px;
+}
+/* footer */
+.footer {
+    text-align: center;
+}
+.step7{
+    display: flex;
+    color: var(--Dark-01, #131318);
+font-size: 32px;
+font-weight: 800;
+margin: 100px 850px;
+}
+.footer-img{
+    width: 130px;
+height: 50px;
+}
 
 
     /* Responsive for mobile device */
@@ -222,6 +261,10 @@ flex-shrink: 0;
         .banner{
             width: 500px;
             margin: auto;
+        }
+        .destination-image{
+           flex-direction: column;
+           image-resolution: 100px;
         }
         .banner-title {
             font-size: 24px; 
@@ -246,4 +289,8 @@ flex-shrink: 0;
         position: relative;
 
     }
+    .choosing-reason{
+        flex-direction: column;
+    }
+
  
