@@ -84,7 +84,7 @@ nav li a{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 100px 350px;
+        margin: 100px 400px;
     }
     .tour-head{
         color: #131318;
@@ -106,11 +106,20 @@ nav li a{
         font-size: 20px;
     }
     /* Image container */
+
 .destination-image{
     display: grid;
     justify-content: center;
+    gap: 24px;
     grid-template-columns: repeat(2, 3, 2, 1fr);
     margin: 100px 350px;
+}
+.step1,
+.step2,
+.step3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 .destination-text{
     text-align: center;
@@ -120,6 +129,7 @@ nav li a{
     font-size: 40px;
     font-weight: 800;
 }
+/* choosing reason */
 .choosing-reason{
     color: #131318;
 text-align: center;
@@ -131,11 +141,72 @@ line-height: normal;
 font-style: normal;
 font-weight: 800;
 }
+/* .box{
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+} */
+
+.step4, .step5, .step6{
+   
+    border: 2px solid aqua;
+    padding: 5px;
+    border-radius: 5px;
+    width: 573px;
+height: 284px;
+flex-shrink: 0;
+
+}
+.step4 > img{
+   
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+.step5 > img{
+    
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+.step6 > img{
+   
+    width: 64px;
+height: 64px;
+flex-shrink: 0;
+}
+.step4{
+    grid-area: step4;
+    background: rgba(251, 181, 99, 0.2);
+}
+.step5{
+    grid-area: step5;
+    background: rgba(41, 206, 246, 0.2);
+}
+.step6{
+    grid-area: step6;
+    background: rgba(233, 68, 68, 0.05);
+    margin: 48px 750px;
+}
+/* .all-steps{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "step4" "step5"
+       "step6"
+       ;
+} */
+.all-step1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 48px 400px;
+}
 
 
 
     /* Responsive for mobile device */
-    @media screen and (max-width: 576px) {
+    @media screen and (max-width: 600px) {
         nav{    
             width: 200px;
             margin: auto;
