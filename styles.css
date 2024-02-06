@@ -1,0 +1,1101 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .mobile {
+      display: none;
+    }
+    .newsletter-footer-div {
+      display: none;
+    }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    header {
+      width: 1170px;
+      margin: 20px auto;
+      color: black;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .logo {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .lg {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+    }
+    .lgtext {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      font-size: 36px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-weight: bold;
+    }
+  
+    span {
+      color: #ff5400;
+    }
+    .navmenu {
+      padding-top: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+    }
+    nav {
+      display: flex;
+    }
+  
+    nav a {
+      color: #000000;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 600;
+      text-align: right;
+    }
+  
+    .banner {
+      margin: auto;
+      height: 500px;
+      width: 1170px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("B9A2-Hero-Travel-main/Images/Group 13 (1) (1).png");
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .bandiv1 {
+      width: 676px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #ffffff;
+    }
+    .search-form {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+    }
+  
+    .search-input {
+      margin-right: 20px;
+      width: 150px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      color: #5a5a5d;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+  
+    .search-button {
+      padding: 8px;
+      width: 150px;
+      border-radius: 5px;
+      background-color: #ff5400;
+      border: none;
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    .search-button:hover {
+      cursor: pointer;
+    }
+    .bandiv2 {
+      background-color: rgb(255, 255, 255, 0.2);
+      padding: 5px;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+    }
+    #section-1 {
+      display: flex;
+      width: 1170px;
+      margin: 70px auto 0;
+    }
+  
+    #left-section {
+      width: 55%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    #left-section h1 {
+      margin-bottom: 10px;
+      margin-top: 0;
+      line-height: 0;
+    }
+  
+    #left-section p {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      color: #5a5a5d;
+    }
+  
+    #left-section button {
+      padding: 10px 20px;
+      background-color: #ff5400;
+      border-radius: 5px;
+      padding: 15px 8px;
+      width: 150px;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+  
+    #right-section {
+      width: 45%;
+      overflow: hidden;
+    }
+  
+    #right-section img {
+      width: 100%;
+      height: auto;
+    }
+    .section-2 {
+      width: 1170px;
+      margin: 70px auto;
+    }
+    .s1d1 {
+      width: 643px;
+      height: 126px;
+      margin: auto;
+      text-align: center;
+    }
+    .s1d1 p {
+      color: #5a5a5d;
+      line-height: 24px;
+    }
+    .container-1 {
+      margin: 70px 0 0 0;
+      display: flex;
+      width: 100%;
+      height: 300px;
+    }
+  
+    .half-width-div {
+      width: 50%;
+      box-sizing: border-box;
+      position: relative;
+      text-align: center;
+      color: #fff;
+    }
+  
+    .half-width-div h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+    }
+  
+    .left-half {
+      background: url("B9A2-Hero-Travel-main/Images/Rectangle 5.png");
+      background-size: cover;
+      margin-right: 10px;
+      border-radius: 15px;
+    }
+  
+    .right-half {
+      background: url("B9A2-Hero-Travel-main/Images/Rectangle 8.png");
+      margin-left: 10px;
+      border-radius: 15px;
+      background-size: cover;
+    }
+    .container-2 {
+      margin-top: 20px;
+      display: flex;
+      width: 100%;
+      height: 300px;
+    }
+  
+    .third-width-div {
+      box-sizing: border-box;
+      position: relative;
+      text-align: center;
+      color: #fff;
+    }
+  
+    .third-width-div h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+    }
+  
+    .first-third {
+      width: 34%;
+      background: url("B9A2-Hero-Travel-main/Images/Rectangle 5.png");
+      margin-right: 10px;
+      border-radius: 15px;
+      background-size: cover;
+    }
+  
+    .second-third {
+      width: 44%;
+      background: url("B9A2-Hero-Travel-main/Images/Rectangle 7.png");
+      margin: 0 10px 0 10px;
+      border-radius: 15px;
+      background-size: cover;
+    }
+  
+    .third-third {
+      width: 22%;
+      background: url("B9A2-Hero-Travel-main/Images/Rectangle 9.png");
+      margin-left: 10px;
+      border-radius: 15px;
+      background-size: cover;
+    }
+    .container-3 {
+      margin-top: 20px;
+      display: flex;
+      width: 100%;
+      height: 300px;
+    }
+  
+    .custom-width-div {
+      box-sizing: border-box;
+      position: relative;
+      text-align: center;
+      color: #fff;
+    }
+  
+    .custom-width-div h2 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+    }
+  
+    .first-custom {
+      width: 40%;
+      margin: 0 10px 0 0;
+      background: url("B9A2-Hero-Travel-main/Images/Rectangle 11.png");
+      border-radius: 15px;
+      background-size: cover;
+    }
+  
+    .second-custom {
+      width: 60%;
+      background: url("B9A2-Hero-Travel-main/Images/Rectangle 10.png");
+      margin: 0 0 0 10px;
+      border-radius: 15px;
+      background-size: cover;
+    }
+    .section-3 {
+      width: 1170px;
+      margin: 50px auto;
+    }
+    .s3d1 {
+      width: 643px;
+      height: 200px;
+      text-align: center;
+      margin: auto;
+    }
+    .s3d1 p {
+      color: #5a5a5d;
+      line-height: 24px;
+    }
+    .container-4 {
+      display: flex;
+      width: 100%;
+      height: 284px;
+    }
+  
+    .half-width-div-4 {
+      width: calc(50% - 10px);
+      margin-right: 20px;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      border-radius: 15px;
+      border: 1px solid #75757517;
+      box-shadow: #000000;
+    }
+    .hd1 {
+      background-color: rgba(233, 68, 68, 0.05);
+    }
+    .hd2 {
+      background-color: rgba(41, 206, 246, 0.1);
+      margin-right: 0;
+      border-radius: 15px;
+    }
+    .content {
+      padding: 40px;
+      box-sizing: border-box;
+      text-align: left;
+      color: #333;
+    }
+  
+    .content img {
+      width: 10%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  
+    .content h4 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+  
+    .content p {
+      margin: 10px 0 0;
+      color: #5a5a5d;
+      line-height: 24px;
+    }
+    .container-5 {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .centered-div {
+      width: 573px;
+      height: 284px;
+      background-color: rgba(233, 68, 68, 0.05);
+      box-sizing: border-box;
+      text-align: left;
+      padding: 40px;
+      border-radius: 15px;
+      border: 1px solid #75757517;
+      box-shadow: #000000;
+    }
+  
+    .centered-div img {
+      width: 10%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+  
+    .centered-div h4 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+  
+    .centered-div p {
+      margin: 10px 0 0;
+      color: #5a5a5d;
+      line-height: 24px;
+    }
+    .section-4 {
+      margin: 50px auto;
+    }
+    .s4d1 {
+      width: 643px;
+      height: 200px;
+      text-align: center;
+      margin: auto;
+    }
+    .s4d1 p {
+      color: #5a5a5d;
+      line-height: 24px;
+    }
+    .main-container {
+      background: url("B9A2-Hero-Travel-main/Images/Group 39.png") center/cover
+        no-repeat;
+      width: 1170px;
+      height: 500px;
+      position: relative;
+      margin: auto;
+      overflow: hidden;
+    }
+  
+    .overlay-container {
+      background-color: rgba(255, 255, 255, 0.9);
+      width: 579px;
+      height: 389px;
+      position: absolute;
+      top: 50%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 20px 50px;
+      text-align: left;
+      border-radius: 15px;
+    }
+  
+    .icon-container {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      width: 100%;
+      margin: 0;
+    }
+  
+    .icon-container img {
+      width: 50px;
+      height: auto;
+    }
+  
+    .icon-container h6 {
+      margin-left: 10px;
+      color: rgba(90, 90, 93, 1);
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    .text-container {
+      text-align: left;
+    }
+  
+    .text-container h3 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+  
+    .text-container p {
+      margin: 10px 0;
+      color: rgba(90, 90, 93, 1);
+    }
+  
+    .orange-text {
+      color: rgba(255, 84, 0, 1);
+      font-size: 20px;
+    }
+  
+    .button-container {
+      margin-top: 20px;
+    }
+  
+    .button-container button {
+      background-color: rgba(255, 84, 0, 1);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .main-container-1 {
+      background: url("B9A2-Hero-Travel-main/Images/Group 40.png") center/cover
+        no-repeat;
+      width: 1170px;
+      height: 500px;
+      position: relative;
+      margin: 20px auto;
+      overflow: hidden;
+    }
+  
+    .overlay-container-1 {
+      background-color: rgba(255, 255, 255, 0.9);
+      width: 579px;
+      height: 389px;
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 20px 50px;
+      text-align: left;
+      border-radius: 15px;
+    }
+  
+    .icon-container-1 {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      width: 100%;
+      margin: 0;
+    }
+  
+    .icon-container-1 img {
+      width: 50px;
+      height: auto;
+    }
+  
+    .icon-container-1 h6 {
+      margin-left: 10px;
+      color: rgba(90, 90, 93, 1);
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    .text-container-1 {
+      text-align: left;
+    }
+  
+    .text-container-1 h3 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+  
+    .text-container-1 p {
+      margin: 10px 0;
+      color: rgba(90, 90, 93, 1);
+    }
+  
+    .orange-text {
+      color: rgba(255, 84, 0, 1);
+      font-size: 20px;
+    }
+  
+    .button-container-1 {
+      margin-top: 20px;
+    }
+  
+    .button-container-1 button {
+      background-color: rgba(255, 84, 0, 1);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .main-container-2 {
+      background: url("B9A2-Hero-Travel-main/Images/Group 39.png") center/cover
+        no-repeat;
+      width: 1170px;
+      height: 500px;
+      position: relative;
+      margin: 20px auto;
+      overflow: hidden;
+    }
+  
+    .overlay-container-2 {
+      background-color: rgba(255, 255, 255, 0.9);
+      width: 579px;
+      height: 389px;
+      position: absolute;
+      top: 50%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      padding: 20px 50px;
+      text-align: left;
+      border-radius: 15px;
+    }
+  
+    .icon-container-2 {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 20px;
+      width: 100%;
+      margin: 0;
+    }
+  
+    .icon-container-2 img {
+      width: 50px;
+      height: auto;
+    }
+  
+    .icon-container-2 h6 {
+      margin-left: 10px;
+      color: rgba(90, 90, 93, 1);
+      font-size: 14px;
+      font-weight: 500;
+    }
+  
+    .text-container-2 {
+      text-align: left;
+    }
+  
+    .text-container-2 h3 {
+      margin-top: 0;
+      font-size: 24px;
+    }
+  
+    .text-container-2 p {
+      margin: 10px 0;
+      color: rgba(90, 90, 93, 1);
+    }
+  
+    .orange-text {
+      color: rgba(255, 84, 0, 1);
+      font-size: 20px;
+    }
+  
+    .button-container-2 {
+      margin-top: 20px;
+    }
+  
+    .button-container-2 button {
+      background-color: rgba(255, 84, 0, 1);
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .section-5 {
+      width: 1170px;
+      height: 1100px;
+      margin: 70px auto;
+    }
+    .main-container-4 {
+      width: 1170px;
+      height: 550px;
+      margin: 0 auto;
+    }
+  
+    .half-width-div-1 {
+      width: 50%;
+      box-sizing: border-box;
+      float: left;
+      padding: 20px;
+    }
+  
+    .text-content {
+      background-color: transparent;
+      padding: 0 20px 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+    }
+  
+    .text-content h2 {
+      margin-bottom: 10px;
+      font-size: 40px;
+      line-height: normal;
+    }
+  
+    .text-content p {
+      color: rgba(90, 90, 93, 1);
+      font-size: 18px;
+      line-height: 30px;
+    }
+    .text-content ul {
+      font-size: 16px;
+      margin-bottom: 50px;
+    }
+  
+    .text-content ul {
+      list-style-type: disc;
+      /* margin-left: 20px; */
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  
+    .see-more-button {
+      background-color: rgba(255, 84, 0, 1);
+      width: 174px;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  
+    .video-content {
+      width: 50%;
+      height: 90%;
+      overflow: hidden;
+      display: flex;
+      padding: 5px;
+    }
+  
+    .video-content video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+    .main-container-5 {
+      width: 1170px;
+      height: auto;
+      margin: 50px auto;
+    }
+  
+    .left-div {
+      width: 40%;
+      box-sizing: border-box;
+      float: left;
+      padding: 30px;
+      border: 1px solid rgba(255, 84, 0, 1);
+      border-radius: 15px;
+    }
+  
+    .right-div {
+      width: 58%;
+      height: 453px;
+      box-sizing: border-box;
+      float: left;
+      padding: 20px;
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 8 (1).png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      margin: 0 0 0 20px;
+      border-radius: 15px;
+    }
+  
+    .corner-image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 350px;
+      height: auto;
+    }
+  
+    .newsletter-form {
+      margin-top: 10px;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+    .left-div hr {
+      border: 1px solid rgba(19, 19, 24, 0.1);
+    }
+    .form-field {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      box-sizing: border-box;
+      padding: 15px;
+      font-size: 16px;
+      border: none;
+      background-color: rgba(19, 19, 24, 0.05);
+      border-radius: 5px;
+      outline: none;
+    }
+  
+    .form-field::placeholder {
+      color: #999;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+    .submit-button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 15px;
+      background-color: rgba(255, 84, 0, 1);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .footer {
+      height: 400px;
+      background-color: rgba(19, 19, 24, 0.05);
+      color: #000000; /* Text color */
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .footer hr {
+      border: 1px solid rgba(19, 19, 24, 0.1);
+    }
+    .footer-content {
+      width: 872px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+  
+    .logo-title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo-title:hover {
+      cursor: pointer;
+    }
+    .logo-title img {
+      width: 50px;
+      height: auto;
+    }
+  
+    .logo-title h2 {
+      margin: 10px 0 15px 10px;
+      font-size: 32px;
+    }
+  
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .social-icons img {
+      width: 20px;
+      height: auto;
+      margin: 0 10px;
+    }
+    .social-icons img:hover {
+      cursor: pointer;
+    }
+    hr {
+      margin: 20px 0;
+      border: 0;
+      border-top: 1px solid #fff;
+    }
+  
+    .footer-text {
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .desktop {
+      display: none;
+    }
+    .mobile-header {
+      height: 64px;
+      width: 375px;
+      flex-direction: column;
+      justify-content: center;
+      margin: auto;
+    }
+    .mobile-header-container {
+      display: flex;
+      width: 335px;
+      align-items: center;
+      margin: auto;
+    }
+    .mobile-heaader-logo-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .mobile-heaader-logo {
+      width: 35px;
+    }
+  
+    .mobile-menu-icon {
+      width: 160px;
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: end;
+    }
+    .mobile-menu-icon:hover {
+      cursor: pointer;
+    }
+    .mobile-banner {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+        url("B9A2-Hero-Travel-main/Images/Group 13 (1) (1).png");
+      background-size: cover;
+      background-position: center;
+      height: 483px;
+      width: 335px;
+      margin: 30px auto 0;
+      border-radius: 4%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      color: white;
+    }
+    .mobile-banner-content {
+      padding: 20px;
+    }
+    .destination-1 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 5.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .destination-2 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 8.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .destination-3 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 6.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .destination-4 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 7.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .destination-5 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 9.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .destination-6 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 11.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .tour-1 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Group 39.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .tour-2 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Group 40.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .tour-3 {
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 10.png");
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px;
+    }
+    .newsletter-left-div {
+      margin-top: 30px;
+      width: 100%;
+      box-sizing: border-box;
+      float: left;
+      padding: 30px;
+      border: 1px solid rgba(255, 84, 0, 1);
+      border-radius: 15px;
+    }
+    .newsletter-left-div hr {
+      border: 1px solid rgba(19, 19, 24, 0.1);
+    }
+    .newsletter-right-div {
+      width: 100%;
+      height: 300px;
+      box-sizing: border-box;
+      float: left;
+      padding: 20px;
+      background-image: url("B9A2-Hero-Travel-main/Images/Rectangle 8 (1).png");
+      background-repeat: no-repeat;
+      position: relative;
+      background-size: cover;
+      margin: 30px auto 0;
+      border-radius: 15px;
+    }
+    .mobile-corner-image {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: auto;
+    }
+    .newsletter-footer-div {
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      float: left;
+      padding: 20px;
+      background-color: rgba(19, 19, 24, 0.05);
+      margin: 30px auto 0;
+    }
+    .mobile-footer {
+      width: 100%;
+      box-sizing: border-box;
+      float: left;
+      padding: 20px;
+      display: flex;
+    }
+    .search-form {
+      display: flex;
+      justify-content: center;
+      padding: 5px;
+    }
+    .search-input {
+      margin-right: 20px;
+      width: 150px;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      color: #5a5a5d;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+  
+    .search-button {
+      padding: 8px;
+      width: 150px;
+      border-radius: 5px;
+      background-color: #ff5400;
+      border: none;
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffffff;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+    }
+    .search-button:hover {
+      cursor: pointer;
+    }
+    .newsletter-form {
+      margin-top: 10px;
+      background-color: #fff;
+      border-radius: 8px;
+    }
+    .form-field {
+      width: 100%;
+      margin-top: 20px;
+      margin-bottom: 0px;
+      box-sizing: border-box;
+      padding: 15px;
+      font-size: 16px;
+      border: none;
+      background-color: rgba(19, 19, 24, 0.05);
+      border-radius: 5px;
+      outline: none;
+    }
+  
+    .form-field::placeholder {
+      color: #999;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  
+    .submit-button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 15px;
+      background-color: rgba(255, 84, 0, 1);
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+  

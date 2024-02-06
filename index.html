@@ -1,138 +1,688 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment 2</title>
-    <link rel="stylesheet" href="assignment2.css">
-    <style>
-        .horizontal-line {
-            border: none;
-            height: 1px; /* Adjust the thickness of the line */
-            background-color: #333; /* Adjust the color of the line */
-            margin: 20px 0; /* Adjust the margin as needed */
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <nav>
-            <div class="head">
-            <img src="B9A2-Hero-Travel/Images/Group 40071 (2).png" alt="">
-            <h3 class="nav-title">Aqua<span class="text-primary"> Travel</span> </h3>
-        </div>
-            <ul>
-                <li><a class="text-primary" href="">Home</a></li>
-                <li><a href="">Packages</a></li>
-                <li><a href="">Testimonial</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="banner">
-            <h1 class="banner-title">Explore Your Travel</h1>
-            <p class="banner-description">Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio <br> enim ac quis sapien urna eu phasellus.</p>
-            <form class="format">
-                <input type="Where go" placeholder="Where go">               
-                <input type="When" placeholder="When">
-                <input type="Select Type" placeholder="Select Type">
-                <button class="btn-primary">Find Now</button>
-            </form>     
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Programming Hero Assignment 2</title>
+  </head>
+  <body>
+    <div class="desktop">
+        <header>
+            <div class="logo">
+              <div class="lg">
+                <img
+                class="logoimg"
+                  src="B9A2-Hero-Travel-main\Images\Group 40071 (2).png"
+                  alt="Logo"
+                />
+              </div>
+      
+              <div class="lgtext">Hero <span>Travel</span></div>
+            </div>
+            
+            <div class="navmenu">
+              
+              <nav> 
+                <a href="#">Home</a>
+                <a href="#">Packages</a>
+                <a href="#">Testimonial</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+              </nav>
+            </div>
+          </header>
+          <div class="banner">
+            <div class="bandiv1">
+              <h1 style="font-size: 64px;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;margin: 0;">Explore Your Travel</h1>
+              <p style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;font-size: 18px;">
+                  Welcome to Wanderlust Adventures, your passport to unparalleled travel experiences. Embark on a journey of discovery and create memories that will last a lifetime
+              </p>
+            </div>
+            <div class="bandiv2">
+              <div class="search-form">
+                  <input type="text" class="search-input" placeholder="Where go">
+                  <select name="category" class="search-input" >
+                      <option value="" disabled selected>When</option>
+                      <option value="category1">Category 1</option>
+                      <option value="category2">Category 2</option>
+                      <option value="category3">Category 3</option>
+                  </select>
+                  <select name="location" class="search-input">
+                      <option value="" disabled selected>Select Type</option>
+                      <option value="location1">Location 1</option>
+                      <option value="location2">Location 2</option>
+                      <option value="location3">Location 3</option>
+                  </select>
+                  <button type="submit" class="search-button">&#128269; Find Now</button>
+                  
+              </div>
+      
+              
+            </div>
+          </div>
+          <div id="section-1">
+              <div id="left-section">
+                  <h1 style="font-size: 40px;color:#000000;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"">Our Popular Tours</h1>
+                  <p style="line-height: 24px;color:#494949;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Our travel platform is designed to ignite your wanderlust and make every destination on your bucket list a reality. Our team carefully curates each travel experience to ensure authenticity, uniqueness, and unforgettable moments.</p>
+                  <ul style="line-height: 24px;color:#494949; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                      <li style="margin: 20px 0;">
+                          Experience the breathtaking beauty of the Swiss Alps.
+                      </li>
+                      <li style="margin: 20px 0;">
+                          Unwind on the sun-kissed beaches of Bali, where the vibrant culture and lush landscapes create a tropical paradise.
+                      </li>
+                      <li style="margin: 20px 0;">
+                          Discover ancient temples, lush rice terraces, and the warm hospitality of the Balinese people.Immerse yourself in the cultural wonders of Kyoto, Japan. From historic temples to traditional tea ceremonies, Kyoto is a blend of modern and ancient traditions that captivate the senses.
+                      </li>
+                  </ul>
+                  <p style="line-height: 24px;color:#494949;font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">Ski down pristine slopes, indulge in Swiss chocolate, and witness landscapes that seem straight out of a fairytale.</p>
+                  <button>Read More</button>
+              </div>
+              <div id="right-section">
+                  <img src="B9A2-Hero-Travel-main\Images\Rectangle 4.png" alt="Image Description">
+              </div>
+          </div>
+          <div class="section-2">
+              <div class="s1d1">
+                  <h1 style="font-size: 40px;color:#000000;">Choose Your Destination</h1>
+                  <p style="line-height: 24px;color:#494949;">Journey with knowledgeable local guides who provide insights into the culture, history, and hidden gems of every destination.</p>
+              </div>
+              <div class="container-1">
+                  <div class="half-width-div left-half">
+                      <h2>Maldives</h2>
+                  </div>
+                  <div class="half-width-div right-half">
+                      <h2>Indonesia</h2>
+                  </div>
+              </div>
+              <div class="container-2">
+                  <div class="third-width-div first-third">
+                      <h2>Srilanka</h2>
+                  </div>
+                  <div class="third-width-div second-third">
+                      <h2>North America</h2>
+                  </div>
+                  <div class="third-width-div third-third">
+                      <h2>Kashmir</h2>
+                  </div>
+              </div>
+              <div class="container-3">
+                  <div class="custom-width-div first-custom">
+                      <h2>Bangladesh</h2>
+                  </div>
+                  <div class="custom-width-div second-custom">
+                      <h2>Bandarban</h2>
+                  </div>
+              </div>
+          </div>
+          <div class="section-3">
+              <div class="s3d1">
+                  <h1 style="font-size: 40px;color:#000000;">Why Choose Us</h1>
+                  <p style="line-height: 24px;color:#494949;">Tailor your trip to your preferences with our customizable travel packages. Whether you seek adventure, relaxation, or cultural immersion, we have the perfect itinerary for you.</p>
+              </div>
+              <div class="container-4">
+                  <div class="half-width-div-4 hd1">
+                      <div class="content">
+                          <img src="B9A2-Hero-Travel-main\Images\hotel 1.png" alt="Image 1">
+                          <h4>Handpicked Hotels</h4>
+                          <p>We partner with trusted accommodations, transportation providers, and maintain high standards to ensure worry-free travel.</p>
+                      </div>
+                  </div>
+                  <div class="half-width-div hd2">
+                      <div class="content">
+                          <img src="B9A2-Hero-Travel-main\Images\Group 27.png" alt="Image 2">
+                          <h4>World Class Service</h4>
+                          <p>Embark on a journey of discovery and create memories that will last a lifetime. Our platform is designed make every destination a reality.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="container-5">
+                  <div class="centered-div">
+                      <img src="B9A2-Hero-Travel-main/Images/Group 26.png" alt="Image">
+                      <h4>Best Price Guarantee</h4>
+                      <p>We partner with trusted accommodations, transportation providers, and maintain high standards to ensure worry-free travel.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="section-4">
+              <div class="s4d1">
+                  <h1 style="font-size: 40px;color:#000000;">Deals & Discounts</h1>
+                  <p style="line-height: 24px;color:#494949;">Dreaming of your next getaway? Your adventure begins with our incredible Deals and Discounts at our agency. We've curated special offers to make your travel dreams a reality without breaking the bank.</p>
+              </div>
+              <div class="main-container">
+                  <div class="overlay-container">
+                      <div class="icon-container">
+                          <div style="display: flex; align-items: center; margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (1).png" alt="Icon 1" style="width: 15%; height: auto;">
+                              <h6 style="margin-left: 10px;">7 Day / 6 Night</h6>
+                          </div>
+                          <div style="display: flex; align-items: center;margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (2).png" alt="Icon 2" style="width: 20%; height: auto;">
+                              <h6>Max : 10</h6>
+                          </div>
+                          <div style="display: flex; align-items: center;margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (3).png" alt="Icon 3" style="width: 20%; height: auto;">
+                              <h6>Malaysia</h6>
+                          </div>
+                      </div>
+                      <div class="text-container">
+                          <h3>Tour To Satorini</h3>
+                          <p>Explore our Limited-Time Offers section for jaw-dropping discounts on selected destinations.</p>
+                          <h3 class="orange-text">Price: $1300-$1500</h3>
+                          <div class="button-container">
+                              <button>Book Now</button>
+                          </div>
+                      </div>
+                  </div>
+                  
+              </div>
+              <div class="main-container-1">
+                  <div class="overlay-container-1">
+                      <div class="icon-container-1">
+                          <div style="display: flex; align-items: center; margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (1).png" alt="Icon 1" style="width: 15%; height: auto;">
+                              <h6 style="margin-left: 10px;">7 Day / 6 Night</h6>
+                          </div>
+                          <div style="display: flex; align-items: center;margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (2).png" alt="Icon 2" style="width: 20%; height: auto;">
+                              <h6>Max : 10</h6>
+                          </div>
+                          <div style="display: flex; align-items: center;margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (3).png" alt="Icon 3" style="width: 20%; height: auto;">
+                              <h6>Malaysia</h6>
+                          </div>
+                      </div>
+                      <div class="text-container-1">
+                          <h3>Tour To Rema</h3>
+                          <p>From tropical escapes to cultural odysseys, seize the opportunity to embark on your dream vacation without compromise</p>
+                          <h3 class="orange-text">Price: $1300-$1500</h3>
+                          <div class="button-container-1">
+                              <button>Book Now</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="main-container-2">
+                  <div class="overlay-container-2">
+                      <div class="icon-container-2">
+                          <div style="display: flex; align-items: center; margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (1).png" alt="Icon 1" style="width: 15%; height: auto;">
+                              <h6 style="margin-left: 10px;">7 Day / 6 Night</h6>
+                          </div>
+                          <div style="display: flex; align-items: center;margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (2).png" alt="Icon 2" style="width: 20%; height: auto;">
+                              <h6>Max : 10</h6>
+                          </div>
+                          <div style="display: flex; align-items: center;margin-right: 20px;">
+                              <img src="B9A2-Hero-Travel-main/Images/Frame (3).png" alt="Icon 3" style="width: 20%; height: auto;">
+                              <h6>Malaysia</h6>
+                          </div>
+                      </div>
+                      <div class="text-container-2">
+                          <h3>Tour To Keo Kradong</h3>
+                          <p>Plan ahead and enjoy Early Bird Discounts on future travel. Book in advance to secure the best rates for your preferred destinations. </p>
+                          <h3 class="orange-text">Price: $1300-$1500</h3>
+                          <div class="button-container-2">
+                              <button>Book Now</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="main-container-3" >
+                  <div class="button-container-2" style="text-align: center; margin-top: 50px;">
+                      <button >See All Packages</button>
+                  </div>
+              </div>
+              
+          </div>
+          <div class="section-5">
+              <div class="main-container-4">
+                  <div class="half-width-div-1 text-content">
+                      <h2>A Simple Perfect Place <br> To Get Lost</h2>
+                      <p>Become a member of our Travel Club for exclusive access to members-only deals and perks.</p>
+                      <ul>
+                          <li>Unlock extra savings with our Bundle & Save Packages.</li>
+                          <li>Combine flights, accommodations, and activities to create a personalized itinerary that suits your travel style.</li>
+                      </ul>
+                      <button class="see-more-button">See More</button>
+                  </div>
+                  <div class="half-width-div-1 video-content">
+                      <video controls>
+                          <source src="B9A2-Hero-Travel-main\Images\pexels-mikhail-nilov-6981411 (Original).mp4" type="video/mp4">
+                          Your browser does not support the video tag.
+                      </video>
+                  </div>
+              </div>
+              <div class="main-container-5">
+                      <div class="left-div">
+                          <!-- Content for the left div goes here -->
+                          <h4 style="font-size: 24px; line-height: 0%;">Newsletter</h4>
+                          <p style="color: rgba(90, 90, 93, 1);font-size: 16px;font-weight: 600;padding:0 80px 20px 0;line-height: 32px;">Get your daily dose of travel news & tips. Sign up today!</p>
+                          <hr>
+                          <div class="newsletter-form">
+                              <input type="text" class="form-field" placeholder="Enter your name">
+                              <input type="email" class="form-field" placeholder="Enter your email">
+                              <button type="submit" class="submit-button">Subscribe</button>
+                          </div>
+                      </div>
+                      <div class="right-div">
+                          <!-- Content for the right div goes here -->
+                          <img src="B9A2-Hero-Travel-main\Images\Group 40069.png" alt="" class="corner-image">
+                      </div>
+                  
+              </div>
+          </div>
+          <footer>
+              <div class="footer">
+                  <div class="footer-content">
+                      <div class="logo-title">
+                          <img src="B9A2-Hero-Travel-main\Images\Group 40071 (2).png" alt="Logo">
+                          <h2>Hero <span style="color:rgba(255, 84, 0, 1) ;">Travel</span></h2>
+                      </div>
+                      <p style="font-size: 16px; color:rgba(90, 90, 93, 1) ;margin-bottom: 40px;">Become a member of our Travel Club for exclusive access to members-only deals and perks. Enjoy priority booking, personalized travel recommendations, and special discounts reserved just for you. </p>
+                      <div class="social-icons" style="margin-bottom: 40px;">
+                          <img src="B9A2-Hero-Travel-main\Images\1.png" alt="Facebook">
+                          <img src="B9A2-Hero-Travel-main\Images\2.png" alt="Twitter" style="width: 10px;">
+                          <img src="B9A2-Hero-Travel-main\Images\3.png" alt="Instagram">
+                          <img src="B9A2-Hero-Travel-main\Images\4.png" alt="LinkedIn">
+                      </div>
+                      <hr>
+                      <p style="color:rgba(90, 90, 93, 1) ;margin-top: 40px;">2017, All Rights Reserved.</p>
+                  </div>
+              </div>
+          </footer>
+          
     </div>
-        <main>
-            <div class="tour">
-                <div class="tour-content">
-                    <h3 class="tour-head">Our Popular Tours</h3>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
-                    <ul>
-                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at .</li>
-                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
-                        <li>Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
-                    </ul>
-                    <p>Amet consectetur. Vulputate commodo felis molestie risus 
-                        ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
-                <div class="button">
-                    <button class="btn-primary">Read More</button>
+    <!-- mobile version starts here -->
+    <div class="mobile">
+        <div class="mobile-header">
+            <div class="mobile-header-container">
+                <div class="mobile-heaader-logo-container" >
+                   <img class="mobile-heaader-logo" src="B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt="">
                 </div>
+                <div style="display: flex;" class="mobile-header-logo-text">
+                    <h4 style="font-size: 24px;
+                    font-weight: bolder;
+                    margin-left: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 5px;">
+                    Hero
+                    </h4>
+                    <h4 style="font-size: 24px;
+                    font-weight: bolder;
+                    margin-left: 5px;
+                    color: rgba(255, 84, 0, 1);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 5px;"> Travel</h4>     
                 </div>
-                <div class="tour-image">
-                    <img src="B9A2-Hero-Travel/Images/Rectangle 4.png" alt="">
+                <div class="mobile-menu-icon">
+                    <img src="B9A2-Hero-Travel-main\Images\Frame (4).png" alt="">
                 </div>
-            </div>
-        <section class="destination-container">
-            <div class="destination-text">
-                <h3 class="destination-head">Choose Your Destination</h3>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
-            </div>
-            <div class="destination-image">
-                <div class="step1">
-                    <img src="B9A2-Hero-Travel/Images/Rectangle 5.png" alt="">
-                    <img src="B9A2-Hero-Travel/Images/Rectangle 8.png" alt="">
-                </div>
-            <div class="step2">
-                <img src="B9A2-Hero-Travel/Images/Rectangle 6.png" alt="">
-                <img src="B9A2-Hero-Travel/Images/Rectangle 7.png" alt="">
-                <img src="B9A2-Hero-Travel/Images/Rectangle 9.png" alt="">
-            </div>
-                <div class="step3">
-                    <img src="B9A2-Hero-Travel/Images/Rectangle 11.png" alt="">
-                    <img src="B9A2-Hero-Travel/Images/Rectangle 10.png" alt="">
-                </div>
-            </div>
-            <div class="choosing-reason">
-                <div class="choosing-description">
-                <h3 class="choosing-header">Why Choose Us</h3>
-                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales dictumst nec nibh pellentesque.</p>
-            </div>
-            </div>
-            <!-- <div class="container">
-                <div class="box" id="box-1">Box - 1</div>
-                <div class="box" id="box-2">Box - 2</div>
-                <div class="box" id="box-3">Box - 3</div>
-            </div> -->
-            <div class="all-steps">
-            <div class="all-step1">
-             <div class="step4">
-                <img src="B9A2-Hero-Travel/Images/hotel-flat-icon-vector.jpg" alt="">
-                <h3>Handpicked Hotels</h3>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
-            </div>
-            <div class="step5">
-                <img src="B9A2-Hero-Travel/Images/map.jpg" alt="">
-                <h3>World Class Service</h3>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
             </div>
         </div>
-            <div class="step6">
-                <img src="B9A2-Hero-Travel/Images/BG4.png" alt="">
-                <h3>Best Price Guarantee</h3>
-                <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+        <div class="mobile-banner" >
+            <div class="mobile-banner-content">
+            <h4 style="text-align: center; font-size: 24px;font-weight: bolder;">Expore Your Travel</h4>
+            <p style="text-align: center; font-size: 14px;">
+                Welcome to Wanderlust Adventures, your passport to unparalleled travel experiences. Embark on a journey of discovery and create memories that will last a lifetime
+            </p>
+                <div style="text-align: center; background-color: rgba(255, 255, 255, 0.3); padding: 10px 0px 10px 15px; width: 235px; margin: auto;border-radius: 15px;" class="mobile-search-form">
+                    <input style="width: 200px; height: 20px;" type="text" class="search-input" placeholder="Where go">
+                    <select style="width: 220px; height: 40px; margin-top: 10px;" name="category" class="search-input" >
+                        <option value="" disabled selected>When</option>
+                        <option value="category1">Category 1</option>
+                        <option value="category2">Category 2</option>
+                        <option value="category3">Category 3</option>
+                    </select>
+                    <select style="width: 220px; height: 40px; margin-top: 10px;" name="location" class="search-input">
+                        <option value="" disabled selected>Select Type</option>
+                        <option value="location1">Location 1</option>
+                        <option value="location2">Location 2</option>
+                        <option value="location3">Location 3</option>
+                    </select>
+                    <button style="width: 220px; height: 40px; margin-left: -20px;margin-top: 10px;" type="submit" class="search-button">&#128269; Find Now</button> 
+                </div>
             </div>
+            
+            
         </div>
-        <div class="form-detail">
-            <form class="form" action="">
-            <h3 class="form-head">Newsletter</h3>
-            <p>Get your daily dose of travel news & tips. <br> Sign up today!</p>
-            <input class="input1" type="text" placeholder="Enter your name">
-            <input class="input2" type="text" placeholder="Enter your email">
-            <button class="btn-primary">Subscribe</button>
-            </form>
-            <img src="B9A2-Hero-Travel/Images/Rectangle 2.png" alt="">
+        <div style="width: 335px;margin: auto;">
+            <h4
+            style="text-align: left; font-size: 24px;font-weight: bolder; margin-bottom: 0;"
+            >Our Popular Tours</h4>
+            <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7);" >
+                Our travel platform is designed to ignite your wanderlust and make every destination on your bucket list a reality. Our team carefully curates each travel experience to ensure authenticity, uniqueness, and unforgettable moments.
+            </p>
+            <ul style="line-height: 28px; color: rgba(19, 19, 24, 0.7);">
+                <li>
+                    Experience the breathtaking beauty of the Swiss Alps.
+                </li>
+                <li>
+                    Unwind on the sun-kissed beaches of Bali, where the vibrant culture and lush landscapes create a tropical paradise.
+                </li>
+                <li>
+                    Discover ancient temples, lush rice terraces, and the warm hospitality of the Balinese people.Immerse yourself in the cultural wonders of Kyoto, Japan. From historic temples to traditional tea ceremonies, Kyoto is a blend of modern and ancient traditions that captivate the senses.
+                </li>
+            </ul>
+            <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7);">
+                Ski down pristine slopes, indulge in Swiss chocolate, and witness landscapes that seem straight out of a fairytale.
+            </p>
+            <button style="width: 150px; height: 50px; font-size: 20px;" type="submit" class="search-button" >Read More</button>
+            <img style="width: 100%; margin-top: 50px;" src="B9A2-Hero-Travel-main/Images/Rectangle 4.png" alt="">
+            <h4
+            style="text-align: center; font-size: 24px;font-weight: bolder; margin-bottom: 0;"
+            >
+            Choose Your Destination
+            </h4>
+            <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: center;" >
+                Journey with knowledgeable local guides who provide insights into the culture, history, and hidden gems of every destination.
+            </p>
+            <div style="height: 176px; display: flex; flex-direction:column; align-items: center; justify-content: center; margin: 15px auto;" class="destination-1">
+                <a href="#" style="text-decoration: none;color: white;"><h4
+                    style="text-align: center; font-size: 24px;font-weight: 600; ">
+                    Maldives
+                    </h4></a>
+            </div>
+            <div style="height: 176px; display: flex; flex-direction:column; align-items: center; justify-content: center; margin: 15px auto;" class="destination-2">
+                <a href="#" style="text-decoration: none;color: white;"><h4
+                    style="text-align: center; font-size: 24px;font-weight: 600; ">
+                    Maldives
+                    </h4></a>
+            </div>
+            <div style="height: 176px; display: flex; flex-direction:column; align-items: center; justify-content: center; margin: 15px auto;" class="destination-3">
+                <a href="#" style="text-decoration: none;color: white;"><h4
+                    style="text-align: center; font-size: 24px;font-weight: 600; ">
+                    Srilanka
+                    </h4></a>
+            </div>
+            <div style="height: 176px; display: flex; flex-direction:column; align-items: center; justify-content: center; margin: 15px auto;" class="destination-4">
+                <a href="#" style="text-decoration: none;color: white;"><h4
+                    style="text-align: center; font-size: 24px;font-weight: 600; ">
+                    North America
+                    </h4></a>
+            </div>
+            <div style="height: 176px; display: flex; flex-direction:column; align-items: center; justify-content: center; margin: 15px auto;" class="destination-5">
+                <a href="#" style="text-decoration: none;color: white;"><h4
+                    style="text-align: center; font-size: 24px;font-weight: 600; ">
+                    Kashmir
+                    </h4></a>
+            </div>
+            <div style="height: 176px; display: flex; flex-direction:column; align-items: center; justify-content: center; margin: 15px auto;" class="destination-6">
+                <a href="#" style="text-decoration: none;color: white;"><h4
+                    style="text-align: center; font-size: 24px;font-weight: 600; ">
+                    Bangladesh
+                    </h4></a>
+            </div>
+            <h4
+            style="text-align: center; font-size: 24px;font-weight: bolder; margin-bottom: 0;"
+            >
+            Why Choose Us
+            </h4>
+            <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: center;" >
+                Tailor your trip to your preferences with our customizable travel packages. Whether you seek adventure, relaxation, or cultural immersion, we have the perfect itinerary for you.
+            </p>
+            <div style="height: 289px; background-color: rgba(251, 181, 99, 0.2); border-radius: 15px; padding: 20px; display: flex;flex-direction: column;justify-content: center;border: 1px solid #75757517; box-shadow: #000000;">
+                <img style="width: 15%;" src="B9A2-Hero-Travel-main\Images\hotel 1.png" alt="">
+                <h4
+                style="text-align: left; font-size: 24px;font-weight: bolder; margin-bottom: 0;margin-top: 20px;"
+                >
+                Handpicked Hotels
+                </h4>
+                <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: left; margin-bottom: 0;" >
+                    We partner with trusted accommodations, transportation providers, and maintain high standards to ensure worry-free travel.
+                </p>
+            </div>
+            <div style="height: 289px; background-color: rgba(41, 206, 246, 0.05); border-radius: 15px; padding: 20px; display: flex;flex-direction: column;justify-content: center;margin-top: 20px;border: 1px solid #75757517; box-shadow: #000000;">
+                <img style="width: 15%;" src="B9A2-Hero-Travel-main\Images\Group 27.png" alt="">
+                <h4
+                style="text-align: left; font-size: 24px;font-weight: bolder; margin-bottom: 0;margin-top: 20px;"
+                >
+                World Class Service
+                </h4>
+                <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: left; margin-bottom: 0;" >
+                    Embark on a journey of discovery and create memories that will last a lifetime. Our platform is designed make every destination a reality.
+                </p>
+            </div>
+            <div style="height: 289px; background-color: rgba(251, 181, 99, 0.2); border-radius: 15px; padding: 20px; display: flex;flex-direction: column;justify-content: center;margin-top: 20px;border: 1px solid #68676717; box-shadow: #000000;">
+                <img style="width: 15%;" src="B9A2-Hero-Travel-main\Images\Group 26.png" alt="">
+                <h4
+                style="text-align: left; font-size: 24px;font-weight: bolder; margin-bottom: 0;margin-top: 20px;"
+                >
+                Best Price Guarantee
+                </h4>
+                <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: left; margin-bottom: 0;" >
+                    We partner with trusted accommodations, transportation providers, and maintain high standards to ensure worry-free travel.
+                </p>
+            </div>
+            <h4
+                style="text-align: center; font-size: 24px;font-weight: bolder; margin-bottom: 0;margin-top: 20px;"
+            >
+            Deal & Discounts
+            </h4>
+            <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: center; margin-bottom: 0;" >
+                Dreaming of your next getaway? Your adventure begins with our incredible Deals and Discounts at our agency. We've curated special offers to make your travel dreams a reality without breaking the bank.
+            </p>
+            <div style="height: 500px; margin-top: 30px; padding: 20px; display: flex; flex-direction: column; justify-content: end;" class="tour-1">
+                <div style="height: 297px; background-color:rgba(255, 255, 255, 0.9) ; border-radius: 15px; padding: 20px; display: flex;flex-direction: column;justify-content: center;">
+                    <div style="display: flex; height: 40px;">
+                        <div style="display: flex; flex-direction: column;justify-content: center;">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (1).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px;">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            7 Day / 6 Night
+                            </h4>
+                        </div>
+                    </div>
+                    <div style="display: flex; height: 40px;">
+                        <div style="display: flex; flex-direction: column;justify-content: center;">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (2).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px; ">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            Max : 10
+                            </h4>
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 20px; ">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (3).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px;">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            Malaysia
+                            </h4>
+                        </div>
+                    </div>
+                    <h4
+                    style="text-align: left; font-size: 24px;font-weight: bold; margin-bottom: 0;margin-top: 5px;"
+                    >
+                    Tour To Satorini
+                    </h4>
+                    <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: left; margin-bottom: 0; margin-top: 5px;" >
+                        Explore our Limited-Time Offers section for jaw-dropping discounts on selected destinations.
+                    </p>
+                    <h6
+                    style="text-align: left; font-size: 16px;font-weight: bold; margin-bottom: 10px;margin-top: 5px; color:rgba(255, 84, 0, 1);"
+                    >
+                    Price: $1300-$1500
+                    </h6>
+                    <button style="width: 150px; height: 40px; font-size: 20px; padding-bottom: 40px;" type="submit" class="search-button" >Book Now</button>
+                </div>
+            </div>
+            <div style="height: 500px; margin-top: 30px; padding: 20px; display: flex; flex-direction: column; justify-content: end;" class="tour-2">
+                <div style="height: 297px; background-color:rgba(255, 255, 255, 0.9) ; border-radius: 15px; padding: 20px 20px 30px 20px; display: flex;flex-direction: column;justify-content: center;">
+                    <div style="display: flex; height: 40px;">
+                        <div style="display: flex; flex-direction: column;justify-content: center;">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (1).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px;">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            7 Day / 6 Night
+                            </h4>
+                        </div>
+                    </div>
+                    <div style="display: flex; height: 40px;">
+                        <div style="display: flex; flex-direction: column;justify-content: center;">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (2).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px; ">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            Max : 10
+                            </h4>
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 20px; ">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (3).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px;">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            Malaysia
+                            </h4>
+                        </div>
+                    </div>
+                    <h4
+                    style="text-align: left; font-size: 24px;font-weight: bold; margin-bottom: 0;margin-top: 5px;"
+                    >
+                    Tour To Rema
+                    </h4>
+                    <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: left; margin-bottom: 0; margin-top: 5px;" >
+                        From tropical escapes to cultural odysseys, seize the opportunity to embark on your dream vacation without compromise
+                    </p>
+                    <h6
+                    style="text-align: left; font-size: 16px;font-weight: bold; margin-bottom: 10px;margin-top: 5px; color:rgba(255, 84, 0, 1);"
+                    >
+                    Price: $1300-$1500
+                    </h6>
+                    <button style="width: 150px; height: 40px; font-size: 20px; padding-bottom: 40px;" type="submit" class="search-button" >Book Now</button>
+                </div>
+            </div>
+            <div style="height: 500px; margin-top: 30px; padding: 20px; display: flex; flex-direction: column; justify-content: end;" class="tour-3">
+                <div style="height: 297px; background-color:rgba(255, 255, 255, 0.9) ; border-radius: 15px; padding: 20px 20px 30px 20px; display: flex;flex-direction: column;justify-content: center;">
+                    <div style="display: flex; height: 40px;">
+                        <div style="display: flex; flex-direction: column;justify-content: center;">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (1).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px;">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            7 Day / 6 Night
+                            </h4>
+                        </div>
+                    </div>
+                    <div style="display: flex; height: 40px;">
+                        <div style="display: flex; flex-direction: column;justify-content: center;">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (2).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px; ">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            Max : 10
+                            </h4>
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 20px; ">
+                            <img style="width: 25px; height: 25px;" src="B9A2-Hero-Travel-main\Images\Frame (3).png" alt="">
+                            
+                        </div>
+                        <div style="display: flex; flex-direction: column;justify-content: center; margin-left: 5px;">
+                            <h4
+                            style="text-align: center; font-size: 16px;font-weight: 500; color: rgba(90, 90, 93, 1); ">
+                            Malaysia
+                            </h4>
+                        </div>
+                    </div>
+                    <h4
+                    style="text-align: left; font-size: 24px;font-weight: bold; margin-bottom: 0;margin-top: 5px;"
+                    >
+                    Tour To Keo Kradong
+                    </h4>
+                    <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: left; margin-bottom: 0; margin-top: 5px;" >
+                        Plan ahead and enjoy Early Bird Discounts on future travel. Book in advance to secure the best rates for your preferred destinations.
+                    </p>
+                    <h6
+                    style="text-align: left; font-size: 16px;font-weight: bold; margin-bottom: 10px;margin-top: 5px; color:rgba(255, 84, 0, 1);"
+                    >
+                    Price: $1300-$1500
+                    </h6>
+                    <button style="width: 150px; height: 40px; font-size: 20px; padding-bottom: 40px;" type="submit" class="search-button" >Book Now</button>
+                </div>
+            </div>
+            <h4
+            style="text-align: left; font-size: 24px;font-weight: bold; margin-bottom: 0;margin-top: 30px;"
+            >
+            A Simple Perfect Place <br> To Get Lost
+            </h4>
+            <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: left; margin-bottom: 0; margin-top: 5px;" >
+                Become a member of our Travel Club for exclusive access to members-only deals and perks.
+            </p>
+            <ul style="line-height: 28px; color: rgba(0, 0, 0, 1); font-weight: 500;">
+                <li>
+                    Unlock extra savings with our Bundle & Save Packages.
+                </li>
+                <li>
+                    Combine flights, accommodations, and activities to create a personalized itinerary that suits your travel style.
+                </li>                
+            </ul>
+            <button style="width: 150px; height: 30px; font-size: 20px; padding-bottom: 35px; margin-top: 10px;" type="submit" class="search-button" >See More</button>
+            <video controls autoplay style="width: 100%; height: 188px; margin-top: 30px; border-radius: 20px;" src="B9A2-Hero-Travel-main\Images\pexels-mikhail-nilov-6981411 (Original).mp4"></video>
+            <div class="newsletter-left-div">
+                <h4 style="font-size: 24px; line-height: 0%;">Newsletter</h4>
+                <p style="color: rgba(90, 90, 93, 1);font-size: 16px;font-weight: 600;line-height: 32px;">Get your daily dose of travel news & tips. Sign up today!</p>
+                <hr >
+                <div class="newsletter-form">
+                    <input type="text" class="form-field" placeholder="Enter your name">
+                    <input type="email" class="form-field" placeholder="Enter your email">
+                    <button style="font-size: 20px; font-weight: 600;" type="submit" class="submit-button">Subscribe</button>
+                </div>
+            </div>
+            <div class="newsletter-right-div">
+                <img style="width: 70%; padding-right: 10px;" src="B9A2-Hero-Travel-main\Images\Group 40069.png" alt="" class="mobile-corner-image">
+            </div>
+            </div>
+            
         </div>
-        </section>
-        </main> 
-        <footer>
-            <div class="footer">
-                <div class="step7">
-                <img src="B9A2-Hero-Travel/Images/Group 40071 (2).png" alt="">
-                <h3 class="footer-title">Aqua<span class="text-primary"> Travel</span> </h3>
-            </div>
-                <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. <br> Leo erat maecenas vitae elementum ultricies nullam. </p>
-                <img class="footer-img" src="B9A2-Hero-Travel/Images/SOCIAL1.png" alt="">
-                <div id="horizontal-line"></div>
-                <h4>2017, All Rights Reserved.</h4>
-            </div>
-        </footer>
-    </header>
-</body>
+        <div  class="newsletter-footer-div">
+                <div class="mobile-footer">
+                    <div style="width: 35%; text-align: right;margin-right: 10px;"> <img style="width: 35%;" src="B9A2-Hero-Travel-main/Images/Group 40071 (2).png" alt=""></div>
+                    <div style="width: 65%; text-align: left; margin-top: 0px; font-size:22px ;font-weight: bolder;">Hero <span>Travel</span></div>  
+                </div>
+                <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: center; margin-bottom: 0; margin-top: 5px;" >
+                    Become a member of our Travel Club for exclusive access to members-only deals and perks.
+                </p>
+                <ul style="display: flex; list-style-type: none; width: 150px; margin: 20px auto;">
+                    <li style="width: 10%; padding-top: 3px;" ><a href="#"><img src="B9A2-Hero-Travel-main\Images\1.png" alt=""></a></li>
+                    <li style="width: 7%;margin-left: 15px;"><a href="#"><img src="B9A2-Hero-Travel-main\Images\2.png" alt=""></a></li>
+                    <li style="width: 7%;margin-left: 15px;"><a href="#"><img src="B9A2-Hero-Travel-main\Images\3.png" alt=""></a></li>
+                    <li style="width: 7%; margin-left: 25px;"><a href="#"><img src="B9A2-Hero-Travel-main\Images\4.png" alt=""></a></li>
+                </ul>
+                <hr>
+                <p style="line-height: 28px; color: rgba(19, 19, 24, 0.7); text-align: center; margin-bottom: 0; margin-top: 5px;" >
+                    2017, All Rights Reserved.
+                </p>
+                
+             
+        </div>
+
+        
+        
+    </div>
+  </body>
 </html>
